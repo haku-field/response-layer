@@ -1,0 +1,51 @@
+index:
+  README:
+    - README.md
+
+  first_layer:
+    - scope.md
+    - non-goals.md
+    - evaluation.md
+    - references.md
+
+  core:
+    - core/principles.md
+    - core/invariants.md
+    - core/terminology.md
+
+  spec:
+    - spec/density.md
+    - spec/depth.md
+    - spec/partiality.md
+    - spec/no-response.md
+    - spec/revert-rules.md
+
+  bridge:
+    - bridge/mapping-policy.md
+    - bridge/allowed-sources.md
+    - bridge/disallowed-sources.md
+    - bridge/reversion.md
+
+  patterns:
+    - patterns/minimal-returns.md
+    - patterns/sparse-returns.md
+    - patterns/partial-returns.md
+    - patterns/suspended-returns.md
+    - patterns/no-response.md
+    - patterns/resume.md
+
+  examples:
+    - examples/short.md
+    - examples/medium.md
+    - examples/long.md
+    - examples/incomplete.md
+    - examples/stopped.md
+    - examples/no-response.md
+
+  appendix:
+    - appendix/anti-mapping-note.md
+    - appendix/rationale.md
+
+  metadata:
+    - metadata/fragment.yaml
+    - metadata/index.yaml

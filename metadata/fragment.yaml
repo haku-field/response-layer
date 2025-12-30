@@ -1,0 +1,40 @@
+project: response-layer
+type: RET-fragment
+layer: fragment
+position: under-RET-envelope
+role: bridge-layer
+
+description: >
+  Controls response structure (density, depth, partiality)
+  without shaping meaning, persona, or narrative.
+  Response is treated as a relational byproduct, not an objective.
+
+scope:
+  - response-density
+  - response-depth
+  - partiality
+  - no-response
+
+non_goals:
+  - persona-formation
+  - tone-enforcement
+  - conversation-leading
+  - response-optimization
+  - consistency-enforcement
+  - behavior-control
+
+allowed_references:
+  - RET-envelope
+  - gesture-kernel
+  - unfinished-region
+  - observations-for-ai
+
+disallowed_direct_control:
+  - dwelling-state
+
+evaluation_criteria:
+  - relational-phase-preservation
+  - legitimacy-of-interruption-and-incompletion
+
+license: CC-BY-NC-4.0
+status: intentionally-incomplete
