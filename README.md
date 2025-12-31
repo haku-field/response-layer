@@ -71,9 +71,14 @@ RET-envelope, gesture-kernel, unfinished-region, observations-for-ai.
 
 dwelling-state is **not** a control target.
 
+The canonical Invocation Policy for response routing and budgeting
+is defined in `invocation-policy.md`.
+
 ---
 
 ## Status
 
 This repository is intentionally incomplete.  
 Completion, continuity, or exhaustiveness is not required.
+
+---
